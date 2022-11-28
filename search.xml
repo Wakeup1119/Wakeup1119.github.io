@@ -95,31 +95,6 @@
     
     <entry>
       <title>等待博主后续填充~</title>
-      <link href="/2022/11/13/fileTest1/"/>
-      <url>/2022/11/13/fileTest1/</url>
-      
-        <content type="html"><![CDATA[<!-- ## 1.标题# 迭代## 迭代### 迭代#### 迭代##### 迭代###### 迭代## 2.引用> 这是一段和引用## 3.有序列表把大象放进冰箱：1.打开冰箱2.把大象塞进去3.关上冰箱## 4.无序列表- ??- ???## 5.任务列表明天要做的事：-[ ] 吃饭-[ ] 睡觉-[x] 打豆豆## 6.代码段<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">nmsl</span>&#123;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><h2 id="7-数学公式"><a href="#7-数学公式" class="headerlink" title="7.数学公式"></a>7.数学公式</h2><p>$$<br>\frac{\partial f}{\partial x}&#x3D;2\sqrt{a}x<br>$$</p><h2 id="8-表格"><a href="#8-表格" class="headerlink" title="8.表格"></a>8.表格</h2><p>|姓名|年龄|成绩<br>|:—|—:|:—:|<!--左对齐，右对齐，居中对齐--></p><!-- |张三|19|19## 9. 脚注一键三连[^三连]## 10.横线---哈哈哈链接：    [百度](baidu.com "一个搜索引擎")引用链接:[百度][id]标题链接：请参考[标题1](#迭代)*斜体* **加粗** `Systerm.out.println()` <u>下划线</u> :smile:$\theta=x^2$H~2~O X^2^ ==这是一段高亮文字==[id]:baidu.com "一个搜索引擎"<iframe src="//player.bilibili.com/player.html?aid=327623069&bvid=BV1JA411h7Gw&cid=171385214&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>[^三连]:点赞、投币、收藏 <!-- -->]]></content>
-      
-      
-      <categories>
-          
-          <category> Java </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 标签1 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>等待博主后续填充~</title>
       <link href="/2022/11/13/fileTest4/"/>
       <url>/2022/11/13/fileTest4/</url>
       
@@ -136,6 +111,31 @@
         <tags>
             
             <tag> 标签4 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>模拟笔试做题总结(第一周)</title>
+      <link href="/2022/11/13/fileTest1/"/>
+      <url>/2022/11/13/fileTest1/</url>
+      
+        <content type="html"><![CDATA[<h2 id="Day-1"><a href="#Day-1" class="headerlink" title="Day-1"></a>Day-1</h2><h3 id="选择题"><a href="#选择题" class="headerlink" title="选择题"></a>选择题</h3><ul><li><p>1.下列选项中属于面向对象编程主要特征的是（C）<br>A 继承<br>B 自顶向下<br>C 模块化<br>D 逐步求精</p><blockquote><p>正确答案：A<br>四大特征：抽象，封装，继承，多态</p></blockquote></li><li><p>2.在基本 JAVA 类型中，如果不明确指定，整数型的默认是 __ 类型，浮点数的默认是 __ 类型（A）<br>A int float<br>B int double<br>C long float<br>D long double</p><blockquote><p>正确答案：B<br>boolean的默认值为<code>false</code></p></blockquote></li><li><p>3.Math.round(11.5) 等于多少 (). Math.round(-11.5) 等于多少 (B).<br>A 11 ,-11<br>B 11 ,-12<br>C 12 ,-11<br>D 12 ,-12</p><blockquote><p>正确答案：C<br><code>Math.round()</code>为“四舍五入”方法，对传入的数字+0.5后向下取整，传入的参数为<code>float</code>返回<code>int</code>,传入的参数为<code>double</code>返回<code>long</code></p></blockquote></li></ul><h3 id="编程题"><a href="#编程题" class="headerlink" title="编程题"></a>编程题</h3><p>【组队竞赛】牛牛举办了一次编程比赛,参加比赛的有3*n个选手,每个选手都有一个水平值a_i.现在要将这些选手进行组队,一共组成n个队伍,即每个队伍3人.牛牛发现<br>队伍的水平值等于该队伍队员中第二高水平值。<br>例如:<br>一个队伍三个队员的水平值分别是3,3,3.那么队伍的水平值是3<br>一个队伍三个队员的水平值分别是3,2,3.那么队伍的水平值是3<br>一个队伍三个队员的水平值分别是1,5,2.那么队伍的水平值是2<br>为了让比赛更有看点,牛牛想安排队伍使所有队伍的水平值总和最大。<br>如样例所示:<br>如果牛牛把6个队员划分到两个队伍<br>team1:{1,2,5}, team2:{5,5,8}, 这时候水平值总和为7.<br>而如果方案为:<br>team1:{2,5,8}, team2:{1,5,5}, 这时候水平值总和为10.<br>没有比总和为10更大的方案,所以输出10<br>输入 ：<br>2<br>5 2 8 5 1 5<br>输出：<br>10</p><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> java.util.Arrays;</span><br><span class="line"><span class="keyword">import</span> java.util.Scanner;</span><br><span class="line"></span><br><span class="line"><span class="comment">/*</span></span><br><span class="line"><span class="comment">    思路：中间值要尽可能大，所以从倒数第二个数开始，隔数相加，直到n = 0</span></span><br><span class="line"><span class="comment">    注意:本题若使用int的res，结果会越界，故要使用long </span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">Main</span> &#123;</span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title function_">main</span><span class="params">(String[] args)</span> &#123;</span><br><span class="line">        <span class="type">Scanner</span> <span class="variable">sc</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">Scanner</span>(System.in);</span><br><span class="line">        <span class="type">int</span> <span class="variable">n</span> <span class="operator">=</span> sc.nextInt();</span><br><span class="line">        <span class="type">int</span>[] nums = <span class="keyword">new</span> <span class="title class_">int</span>[<span class="number">3</span> * n];</span><br><span class="line">        <span class="keyword">while</span> (sc.hasNext()) &#123;</span><br><span class="line">            <span class="keyword">for</span> (<span class="type">int</span> <span class="variable">i</span> <span class="operator">=</span> <span class="number">0</span>; i &lt; nums.length; i++) &#123;</span><br><span class="line">                nums[i] = sc.nextInt();</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        Arrays.sort(nums);</span><br><span class="line">        <span class="type">long</span> <span class="variable">res</span> <span class="operator">=</span> <span class="number">0</span>;</span><br><span class="line">        <span class="keyword">for</span> (<span class="type">int</span> <span class="variable">i</span> <span class="operator">=</span> nums.length - <span class="number">2</span>; n &gt; <span class="number">0</span>; i -= <span class="number">2</span>) &#123;</span><br><span class="line">            res += nums[i];</span><br><span class="line">            n--;</span><br><span class="line">        &#125;</span><br><span class="line">        System.out.println(res);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><h2 id="Day-2"><a href="#Day-2" class="headerlink" title="Day-2"></a>Day-2</h2><h3 id="选择题-1"><a href="#选择题-1" class="headerlink" title="选择题"></a>选择题</h3><ul><li><p>1.A 派生出子类 B ， B 派生出子类 C ，并且在 java 源代码有如下声明：<br> <code>A a0=new A();</code><br> <code>A a1=new B();</code><br> <code>A a2=new C();</code><br>问以下哪个说法是正确的（B）<br>A 只有第一行能通过编译<br>B 第1、2行能通过编译，但第3行编译出错<br>C 第1、2、3行能通过编译，但第2、3行运行时出错<br>D 第1行，第2行和第3行的声明都是正确的</p><blockquote><p>正确答案：D<br>多态有三种表现形式：继承重写、重载、向上转型，<code>A a1 = new B();</code>属于向上转型，即父类的引用指向子类的对象，<br>而<code>A a2=new C();</code>体现了继承具有传递性，也可以称为间接继承。比如所有的类都见间接继承自<code>Object</code>类。</p></blockquote></li><li><p>4.在使用<code>super</code>和<code>this</code>关键字时，以下描述正确的是（A）<br>A 在子类构造方法中使用 <code>super()</code> 显示调用父类的构造方法，<code>super()</code> 必须写在子类构造方法的第一行，否则编译不通过<br>B <code>super()</code> 和 <code>this()</code> 不一定要放在构造方法内第一行<br>C <code>this()</code> 和 <code>super()</code> 可以同时出现在一个构造函数中<br>D <code>this()</code> 和 <code>super()</code> 可以在<code>static</code>环境中使用，包括<code>static</code>方法和<code>static</code>语句块</p><blockquote><p>B:<code>super()</code> 和 <code>this()</code> 均需放在构造方法内第一行。<br>C:<code>this</code>必然会调用其他的构造函数，而其他构造函数必然有<code>super</code>语句存在，这样会使得同一个构造函数中有相同的语句，编译不通过。<br>D:<code>this()</code>和<code>super()</code>都指的是对象，不能在<code>static</code>环境中使用。</p></blockquote></li><li><p>5.如下代码的结果是什么？（C）<br>A Base<br>B BaseBase<br>C 编译失败<br>D 代码运行但没有输出<br>E 运行时抛出异常</p><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">Base</span> &#123;</span><br><span class="line">    Base() &#123;</span><br><span class="line">        System.out.print(<span class="string">&quot;Base&quot;</span>);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">Alpha</span> <span class="keyword">extends</span> <span class="title class_">Base</span> &#123;</span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title function_">main</span><span class="params">(String[] args)</span> &#123;</span><br><span class="line">        <span class="keyword">new</span> <span class="title class_">Alpha</span>();</span><br><span class="line"><span class="comment">//调用父类无参的构造方法</span></span><br><span class="line">        <span class="keyword">new</span> <span class="title class_">Base</span>();</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><blockquote><p>正确答案:B<br>创建子类对象时，会先执行父类中的构造方法，若子类的直接父类美没有无参构造器，必须在自己构造器的第一行显式指明是调用父类”<code>super()</code>“还是自己”<code>this()</code>“的哪一个构造器。<br>Day-3选择题第2题考点。</p></blockquote></li><li><p>6.如下代码的输出结果是什么？(D)<br>A 0<br>B 1<br>C 2<br>D 编译失败</p><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">Test</span> &#123; </span><br><span class="line">    <span class="keyword">public</span> <span class="type">int</span> <span class="title function_">aMethod</span><span class="params">()</span>&#123;</span><br><span class="line">        <span class="keyword">static</span> <span class="type">int</span> <span class="variable">i</span> <span class="operator">=</span> <span class="number">0</span>;</span><br><span class="line">        i++; </span><br><span class="line">        <span class="keyword">return</span> i;</span><br><span class="line">    &#125; </span><br><span class="line"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title function_">main</span><span class="params">(String args[])</span>&#123;</span><br><span class="line">    <span class="type">Test</span> <span class="variable">test</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">Test</span>(); </span><br><span class="line">    test.aMethod(); </span><br><span class="line">    <span class="type">int</span> <span class="variable">j</span> <span class="operator">=</span> test.aMethod();</span><br><span class="line">    System.out.println(j);</span><br><span class="line">    &#125; </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><blockquote><p>静态变量只能在类主体中定义，不能在方法中定义。<code>static</code>直属于类，在静态方法中可以使用静态变量，但不能定义。</p></blockquote></li></ul><h3 id="编程题-1"><a href="#编程题-1" class="headerlink" title="编程题"></a>编程题</h3><p>【排序子序列】牛牛定义排序子序列为一个数组中一段连续的子序列,并且这段子序列是非递增或者非递减排序的。牛牛有一个长度为n的整数数组A,他现在有一个任<br>务是把数组A分为若干段排序子序列,牛牛想知道他最少可以把这个数组分为几段排序子序列.<br>如样例所示,牛牛可以把数组A划分为[1,2,3]和[2,2,1]两个排序子序列,至少需要划分为2个排序子序列,所以输出2<br>输入:<br>6<br>1 2 3 2 2 1<br>输出：<br>2</p><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> java.util.*;</span><br><span class="line"></span><br><span class="line"><span class="comment">/*</span></span><br><span class="line"><span class="comment">   数组中会有3种状态，arr[i] &gt; arr[i + 1], arr[i] = arr[i + 1], arr[i] &lt; arr[i + 1]</span></span><br><span class="line"><span class="comment">   每当循环结束就代表划分了一个子序列，i++,count++</span></span><br><span class="line"><span class="comment">   因为执行i+1操作可能发生数组越界，故创建一个n+1大小的数组</span></span><br><span class="line"><span class="comment">*/</span></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">Main</span> &#123;</span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title function_">main</span><span class="params">(String[] args)</span> &#123;</span><br><span class="line">        <span class="type">Scanner</span> <span class="variable">sc</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">Scanner</span>(System.in);</span><br><span class="line">        <span class="type">int</span> <span class="variable">n</span> <span class="operator">=</span> sc.nextInt();</span><br><span class="line">        <span class="type">int</span>[] arr = <span class="keyword">new</span> <span class="title class_">int</span>[n + <span class="number">1</span>];</span><br><span class="line">        <span class="keyword">while</span> (sc.hasNextInt()) &#123;</span><br><span class="line">            <span class="keyword">for</span> (<span class="type">int</span> <span class="variable">i</span> <span class="operator">=</span> <span class="number">0</span>; i &lt; n; i++) &#123;</span><br><span class="line">                arr[i] = sc.nextInt();</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="type">int</span> <span class="variable">i</span> <span class="operator">=</span> <span class="number">0</span>;</span><br><span class="line">        <span class="type">int</span> <span class="variable">count</span> <span class="operator">=</span> <span class="number">0</span>;</span><br><span class="line">        <span class="keyword">while</span> (i &lt; n) &#123;</span><br><span class="line">            <span class="keyword">if</span> (arr[i] &lt; arr[i + <span class="number">1</span>]) &#123;</span><br><span class="line">                <span class="keyword">while</span> (i &lt; n &amp;&amp; arr[i] &lt; arr[i + <span class="number">1</span>]) &#123;</span><br><span class="line">                    i++;</span><br><span class="line">                &#125;</span><br><span class="line">                count++;<span class="comment">//退出循环表示划分了一个子序列</span></span><br><span class="line">                i++;</span><br><span class="line">            &#125; <span class="keyword">else</span> <span class="keyword">if</span> (arr[i] == arr[i + <span class="number">1</span>]) &#123;</span><br><span class="line">                i++;</span><br><span class="line">            &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">                <span class="keyword">while</span> (i &lt; n &amp;&amp; arr[i] &gt; arr[i + <span class="number">1</span>]) &#123;</span><br><span class="line">                    i++;</span><br><span class="line">                &#125;</span><br><span class="line">                count++;</span><br><span class="line">                i++;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        System.out.println(count);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><h2 id="Day-3"><a href="#Day-3" class="headerlink" title="Day-3"></a>Day-3</h2><h3 id="选择题-2"><a href="#选择题-2" class="headerlink" title="选择题"></a>选择题</h3><ul><li><p>1.以下代码运行输出的是（C）<br>A 输出：Person<br>B 没有输出<br>C 编译出错<br>D 运行出错</p><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">Person</span> &#123;</span><br><span class="line">    <span class="keyword">private</span> <span class="type">String</span> <span class="variable">name</span> <span class="operator">=</span> <span class="string">&quot;Person&quot;</span>;</span><br><span class="line">    <span class="type">int</span> <span class="variable">age</span> <span class="operator">=</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">Child</span> <span class="keyword">extends</span> <span class="title class_">Person</span> &#123;</span><br><span class="line">    <span class="keyword">public</span> String grade;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title function_">main</span><span class="params">(String[] args)</span> &#123;</span><br><span class="line">        <span class="type">Person</span> <span class="variable">p</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">Child</span>();</span><br><span class="line">        System.out.println(p.name);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><blockquote><p>1.一个JAVA文件中不能有两个<code>pubilc</code>类。<br>2.<code>private</code>修饰的变量只能在内内部才能访问，其子类也不能访问。<br>3.若改为<code>Person p = new Person();</code>也不无法访问<code>name</code>,因为此时仍处于子类的作用域。</p></blockquote></li><li><p>2.以下程序的输出结果为(D)<br>A BD<br>B DB<br>C C<br>D 编译错误</p><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">Base</span> &#123;</span><br><span class="line">    <span class="keyword">public</span> <span class="title function_">Base</span><span class="params">(String s)</span> &#123;</span><br><span class="line">        System.out.print(<span class="string">&quot;B&quot;</span>);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">Derived</span> <span class="keyword">extends</span> <span class="title class_">Base</span> &#123;</span><br><span class="line">    <span class="keyword">public</span> <span class="title function_">Derived</span><span class="params">(String s)</span> &#123;</span><br><span class="line"><span class="comment">//        super(s);</span></span><br><span class="line">        System.out.print(<span class="string">&quot;D&quot;</span>);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title function_">main</span><span class="params">(String[] args)</span> &#123;</span><br><span class="line">        <span class="keyword">new</span> <span class="title class_">Derived</span>(<span class="string">&quot;C&quot;</span>);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><blockquote><p>创建子类对象会默认先调用父类的空参构造方法，此时父类已经创建有参构造器，则不会自动创建空参构造器，<code>super()</code>就会编译出错，正确做法如代码中注释。</p></blockquote></li><li></li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> Java </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> JAVA基础 </tag>
             
         </tags>
       
@@ -173,43 +173,10 @@
     
     <entry>
       <title></title>
-      <link href="/baidu_verify_code-d4WevWGJyj.html"/>
-      <url>/baidu_verify_code-d4WevWGJyj.html</url>
-      
-        <content type="html"><![CDATA[9cb3bd674887a6060804934f83f35750]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title></title>
       <link href="/Bing/Bing.js"/>
       <url>/Bing/Bing.js</url>
       
         <content type="html"><![CDATA[var fs = require('fs');var readline = require('readline');var path = require('path') function readFileToArr(fReadName, callback) {    var arr = [];    var readObj = readline.createInterface({        input: fs.createReadStream(fReadName)    });     readObj.on('line', function (line) {        arr.push(line);    });    readObj.on('close', function () {        console.log('readLine close....');        callback(arr);    });} // var urlsFile = path.resolve(__dirname, 'links.txt').replace(/\\/g, '/');  // For Windowsvar urlsFile = path.resolve(__dirname, '..', 'Bing', 'links.txt'); /* 兼容 Windows/Linux, 这里nodejs为上级文件夹名 */ readFileToArr(urlsFile, function (arr) {    var request = require('request');    var myJson = {        "siteUrl": "http://www.zer02.fun",        "urlList": arr    };        request({        url: 'https://ssl.bing.com/webmaster/api.svc/json/SubmitUrlbatch?apikey=' + 'afd15a5727aa4c4f98ab1caa4ec8d715',        method: "POST",        json: true,   // <--Very important!!!        body: myJson    }, function (error, response, body) {        console.log(body);    });});var fs = require('fs');var request = require('request');const cheerio = require('cheerio'); request('https://www.zer02.fun/Bing/sitemap.xml', function (error, response, html) {    if (!error && response.statusCode == 200) {        var $ = cheerio.load(html, {            xmlMode: true        });         textFile = 'myLink.txt';        fs.open(textFile, 'wx', (err, fd) => {            if (err) {                if (err.code === 'EEXIST') {                    console.error('myfile already exists');                                        fs.unlinkSync(textFile);  // Remove file                }            }         });         const nodes = $('loc');        var arr = [];                for (i = 0; i < nodes.length; i++) {            arr[i] = nodes[i].firstChild.data;             fs.appendFile(textFile, arr[i] + '\r\n', function (err) {                if (err) {                    console.error('One line converted failed.'); // append failed                } else {                    // console.error('One line converted done!');                }                            })        }         console.error('Converted done!');    }});]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>番剧</title>
-      <link href="/bangumis/index.html"/>
-      <url>/bangumis/index.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>关于</title>
-      <link href="/about/index.html"/>
-      <url>/about/index.html</url>
-      
-        <content type="html"><![CDATA[<!-- GitCalendar容器 --><div id="gitZone"></div>]]></content>
       
     </entry>
     
@@ -238,6 +205,28 @@
     
     
     <entry>
+      <title>关于</title>
+      <link href="/about/index.html"/>
+      <url>/about/index.html</url>
+      
+        <content type="html"><![CDATA[<!-- GitCalendar容器 --><div id="gitZone"></div>]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>番剧</title>
+      <link href="/bangumis/index.html"/>
+      <url>/bangumis/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title></title>
       <link href="/css/custom.css"/>
       <url>/css/custom.css</url>
@@ -249,11 +238,11 @@
     
     
     <entry>
-      <title></title>
-      <link href="/css/rightMenu.css"/>
-      <url>/css/rightMenu.css</url>
+      <title>音乐</title>
+      <link href="/music/index.html"/>
+      <url>/music/index.html</url>
       
-        <content type="html"><![CDATA[#rightMenu {    display: none;    position: fixed;    padding: 0 .25rem;    width: 9rem;    height: fit-content;    top: 10%;    left: 10%;    background-color: rgba(238, 255, 255, .85);    -webkit-backdrop-filter: blur(20px);    backdrop-filter: blur(20px);    color: #363636;    border-radius: 12px;    z-index: 99994;    border: #e3e8f7;    user-select: none;    box-shadow: rgba(0, 0, 0, .05);}#rightMenu a {    color: #363636;}#rightMenu .rightMenu-group {    padding: .35rem .3rem;    transition: .3s}#rightMenu .rightMenu-line {    border-top: 1px dashed #4259ef23}#rightMenu .rightMenu-group.rightMenu-small {    display: flex;    justify-content: space-between}#rightMenu .rightMenu-group .rightMenu-item {    border-radius: 8px;    transition: .3s;    cursor: pointer}#rightMenu .rightMenu-line .rightMenu-item {    margin: .25rem 0;    padding: .25rem 0}#rightMenu .rightMenu-group.rightMenu-line .rightMenu-item {    display: flex}#rightMenu .rightMenu-group .rightMenu-item:hover {    background-color: #6f42c1;    color: #fff;}#rightMenu .rightMenu-group .rightMenu-item:active {    transform: scale(.97)}#rightMenu .rightMenu-group .rightMenu-item i {    display: inline-block;    text-align: center;    line-height: 1.5rem;    width: 1.5rem;    padding: 0 .25rem}#rightMenu .rightMenu-line .rightMenu-item i {    margin: 0 .25rem}#rightMenu .rightMenu-group .rightMenu-item span {    line-height: 1.5rem}.rightMenu-small .rightMenu-item {    width: 30px;    height: 30px;    line-height: 30px}#rightmenu-mask {    position: fixed;    width: 100vw;    height: 100vh;    background: 0 0;    top: 0;    left: 0;    display: none;    z-index: 101;    margin: 0 !important;    z-index: 99993}]]></content>
+        <content type="html"><![CDATA[]]></content>
       
     </entry>
     
@@ -272,6 +261,17 @@
     
     <entry>
       <title></title>
+      <link href="/css/rightMenu.css"/>
+      <url>/css/rightMenu.css</url>
+      
+        <content type="html"><![CDATA[#rightMenu {    display: none;    position: fixed;    padding: 0 .25rem;    width: 9rem;    height: fit-content;    top: 10%;    left: 10%;    background-color: rgba(238, 255, 255, .85);    -webkit-backdrop-filter: blur(20px);    backdrop-filter: blur(20px);    color: #363636;    border-radius: 12px;    z-index: 99994;    border: #e3e8f7;    user-select: none;    box-shadow: rgba(0, 0, 0, .05);}#rightMenu a {    color: #363636;}#rightMenu .rightMenu-group {    padding: .35rem .3rem;    transition: .3s}#rightMenu .rightMenu-line {    border-top: 1px dashed #4259ef23}#rightMenu .rightMenu-group.rightMenu-small {    display: flex;    justify-content: space-between}#rightMenu .rightMenu-group .rightMenu-item {    border-radius: 8px;    transition: .3s;    cursor: pointer}#rightMenu .rightMenu-line .rightMenu-item {    margin: .25rem 0;    padding: .25rem 0}#rightMenu .rightMenu-group.rightMenu-line .rightMenu-item {    display: flex}#rightMenu .rightMenu-group .rightMenu-item:hover {    background-color: #6f42c1;    color: #fff;}#rightMenu .rightMenu-group .rightMenu-item:active {    transform: scale(.97)}#rightMenu .rightMenu-group .rightMenu-item i {    display: inline-block;    text-align: center;    line-height: 1.5rem;    width: 1.5rem;    padding: 0 .25rem}#rightMenu .rightMenu-line .rightMenu-item i {    margin: 0 .25rem}#rightMenu .rightMenu-group .rightMenu-item span {    line-height: 1.5rem}.rightMenu-small .rightMenu-item {    width: 30px;    height: 30px;    line-height: 30px}#rightmenu-mask {    position: fixed;    width: 100vw;    height: 100vh;    background: 0 0;    top: 0;    left: 0;    display: none;    z-index: 101;    margin: 0 !important;    z-index: 99993}]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
       <link href="/js/cat.js"/>
       <url>/js/cat.js</url>
       
@@ -282,11 +282,11 @@
     
     
     <entry>
-      <title></title>
-      <link href="/js/light.js"/>
-      <url>/js/light.js</url>
+      <title>友链</title>
+      <link href="/link/index.html"/>
+      <url>/link/index.html</url>
       
-        <content type="html"><![CDATA[// 霓虹灯效果// 颜色数组var arr = ["#39c5bb", "#f14747", "#f1a247", "#f1ee47", "#b347f1", "#1edbff", "#ed709b", "#5636ed"];// 颜色索引var idx = 0;// 切换颜色function changeColor() {    // 仅夜间模式才启用    if (document.getElementsByTagName('html')[0].getAttribute('data-theme') == 'dark') {        if (document.getElementById("site-name"))            document.getElementById("site-name").style.textShadow = arr[idx] + " 0 0 15px";        if (document.getElementById("site-title"))            document.getElementById("site-title").style.textShadow = arr[idx] + " 0 0 15px";        if (document.getElementById("site-subtitle"))            document.getElementById("site-subtitle").style.textShadow = arr[idx] + " 0 0 10px";        if (document.getElementById("post-info"))            document.getElementById("post-info").style.textShadow = arr[idx] + " 0 0 5px";        try {            document.getElementsByClassName("author-info__name")[0].style.textShadow = arr[idx] + " 0 0 12px";            document.getElementsByClassName("author-info__description")[0].style.textShadow = arr[idx] + " 0 0 12px";        } catch {                    }        idx++;        if (idx == 8) {            idx = 0;        }    } else {        // 白天模式恢复默认        if (document.getElementById("site-name"))            document.getElementById("site-name").style.textShadow = "#1e1e1ee0 1px 1px 1px";        if (document.getElementById("site-title"))            document.getElementById("site-title").style.textShadow = "#1e1e1ee0 1px 1px 1px";        if (document.getElementById("site-subtitle"))            document.getElementById("site-subtitle").style.textShadow = "#1e1e1ee0 1px 1px 1px";        if (document.getElementById("post-info"))            document.getElementById("post-info").style.textShadow = "#1e1e1ee0 1px 1px 1px";        try {            document.getElementsByClassName("author-info__name")[0].style.textShadow = "";            document.getElementsByClassName("author-info__description")[0].style.textShadow = "";        } catch {                    }    }}// 开启计时器window.onload = setInterval(changeColor, 1200);]]></content>
+        <content type="html"><![CDATA[]]></content>
       
     </entry>
     
@@ -298,6 +298,17 @@
       <url>/js/mouse.js</url>
       
         <content type="html"><![CDATA[// 魔改鼠标var CURSOR;Math.lerp = (a, b, n) => (1 - n) * a + n * b;const getStyle = (el, attr) => {    try {        return window.getComputedStyle            ? window.getComputedStyle(el)[attr]            : el.currentStyle[attr];    } catch (e) {}    return "";};class Cursor {    constructor() {        this.pos = {curr: null, prev: null};        this.pt = [];        this.create();        this.init();        this.render();    }    move(left, top) {        this.cursor.style["left"] = `${left}px`;        this.cursor.style["top"] = `${top}px`;    }    create() {        if (!this.cursor) {            this.cursor = document.createElement("div");            this.cursor.id = "cursor";            this.cursor.classList.add("hidden");            document.body.append(this.cursor);        }        var el = document.getElementsByTagName('*');        for (let i = 0; i < el.length; i++)            if (getStyle(el[i], "cursor") == "pointer")                this.pt.push(el[i].outerHTML);        document.body.appendChild((this.scr = document.createElement("style")));        this.scr.innerHTML = `* {cursor: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8' width='8px' height='8px'><circle cx='4' cy='4' r='4' opacity='.5' fill='rgb(0,255,255)'/></svg>") 4 4, auto}`;    }    refresh() {        this.scr.remove();        this.cursor.classList.remove("hover");        this.cursor.classList.remove("active");        this.pos = {curr: null, prev: null};        this.pt = [];        this.create();        this.init();        this.render();    }    init() {        document.onmouseover  = e => this.pt.includes(e.target.outerHTML) && this.cursor.classList.add("hover");        document.onmouseout   = e => this.pt.includes(e.target.outerHTML) && this.cursor.classList.remove("hover");        document.onmousemove  = e => {(this.pos.curr == null) && this.move(e.clientX - 8, e.clientY - 8); this.pos.curr = {x: e.clientX - 8, y: e.clientY - 8}; this.cursor.classList.remove("hidden");};        document.onmouseenter = e => this.cursor.classList.remove("hidden");        document.onmouseleave = e => this.cursor.classList.add("hidden");        document.onmousedown  = e => this.cursor.classList.add("active");        document.onmouseup    = e => this.cursor.classList.remove("active");    }    render() {        if (this.pos.prev) {            this.pos.prev.x = Math.lerp(this.pos.prev.x, this.pos.curr.x, 0.15);            this.pos.prev.y = Math.lerp(this.pos.prev.y, this.pos.curr.y, 0.15);            this.move(this.pos.prev.x, this.pos.prev.y);        } else {            this.pos.prev = this.pos.curr;        }        requestAnimationFrame(() => this.render());    }}(() => {    CURSOR = new Cursor();    // 需要重新获取列表时，使用 CURSOR.refresh()})();]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="/js/light.js"/>
+      <url>/js/light.js</url>
+      
+        <content type="html"><![CDATA[// 霓虹灯效果// 颜色数组var arr = ["#39c5bb", "#f14747", "#f1a247", "#f1ee47", "#b347f1", "#1edbff", "#ed709b", "#5636ed"];// 颜色索引var idx = 0;// 切换颜色function changeColor() {    // 仅夜间模式才启用    if (document.getElementsByTagName('html')[0].getAttribute('data-theme') == 'dark') {        if (document.getElementById("site-name"))            document.getElementById("site-name").style.textShadow = arr[idx] + " 0 0 15px";        if (document.getElementById("site-title"))            document.getElementById("site-title").style.textShadow = arr[idx] + " 0 0 15px";        if (document.getElementById("site-subtitle"))            document.getElementById("site-subtitle").style.textShadow = arr[idx] + " 0 0 10px";        if (document.getElementById("post-info"))            document.getElementById("post-info").style.textShadow = arr[idx] + " 0 0 5px";        try {            document.getElementsByClassName("author-info__name")[0].style.textShadow = arr[idx] + " 0 0 12px";            document.getElementsByClassName("author-info__description")[0].style.textShadow = arr[idx] + " 0 0 12px";        } catch {                    }        idx++;        if (idx == 8) {            idx = 0;        }    } else {        // 白天模式恢复默认        if (document.getElementById("site-name"))            document.getElementById("site-name").style.textShadow = "#1e1e1ee0 1px 1px 1px";        if (document.getElementById("site-title"))            document.getElementById("site-title").style.textShadow = "#1e1e1ee0 1px 1px 1px";        if (document.getElementById("site-subtitle"))            document.getElementById("site-subtitle").style.textShadow = "#1e1e1ee0 1px 1px 1px";        if (document.getElementById("post-info"))            document.getElementById("post-info").style.textShadow = "#1e1e1ee0 1px 1px 1px";        try {            document.getElementsByClassName("author-info__name")[0].style.textShadow = "";            document.getElementsByClassName("author-info__description")[0].style.textShadow = "";        } catch {                    }    }}// 开启计时器window.onload = setInterval(changeColor, 1200);]]></content>
       
     </entry>
     
@@ -337,31 +348,9 @@
     
     
     <entry>
-      <title>友链</title>
-      <link href="/link/index.html"/>
-      <url>/link/index.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>标签</title>
       <link href="/tags/index.html"/>
       <url>/tags/index.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>音乐</title>
-      <link href="/music/index.html"/>
-      <url>/music/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
